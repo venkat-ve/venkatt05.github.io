@@ -1,4 +1,5 @@
 import FirstFold from './firstfold';
+import Footer from './footer';
 import Header from './header';
 
 export default function Body(){
@@ -7,5 +8,6 @@ export default function Body(){
       <div className="main-wrap">
         <FirstFold />
       </div>
+      <Footer/>
     </div>);
 }

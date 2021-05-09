@@ -1,11 +1,10 @@
 import { Suspense, lazy, useState } from "react";
 import FallBack from "./components/fallback";
-import "./App.css";
+import "./css/App.css";
 import "./css/dark-theme.css";
 // import WhiteTheme from "./css/white-theme.css";
 
 function App() {
-  
   const [theme, updateTheme] = useState(false);
 
   const toggleTheme = () => updateTheme((currentTheme) => !currentTheme);
@@ -22,11 +21,11 @@ function App() {
   );
   return (
     <>
-    <Suspense fallback={<FallBack />}>
-      <div className="content">
-        <Lazy switchTheme={toggleTheme} theme={theme} />
-      </div>
-    </Suspense>
+      <Suspense fallback={<FallBack />}>
+        <div className="content">
+          <Lazy switchTheme={toggleTheme} theme={theme} />
+        </div>
+      </Suspense>
     </>
   );
 }

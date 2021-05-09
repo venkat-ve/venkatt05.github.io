@@ -2,10 +2,10 @@ h3 {
   font-size: 40px;
 }
 
-
 a {
   text-decoration: none;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .App-logo.fallback-wrap {
@@ -35,8 +35,8 @@ a {
   display: flex;
   flex-direction: column;
   position: relative;
-  min-height: 100vh;
-  min-width: 100vw;
+  /* min-height: 100vh;
+  min-width: 100vw; */
   /* border: 1px solid white; */
 }
 
@@ -49,7 +49,7 @@ a {
   /* border: 1px solid white; */
 }
 
-.App-logo.header-wrap{
+.App-logo.header-wrap {
   height: 80px;
   pointer-events: none;
 }
@@ -81,7 +81,7 @@ a {
 }
 
 .header-links li {
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 .Resume-box {
@@ -102,7 +102,7 @@ margin-right: 10px;
 @keyframes Header-logo-spin {
   from {
     transform: rotate(0deg);
-  } 
+  }
   to {
     transform: rotate(360deg);
   }
@@ -127,7 +127,7 @@ margin-right: 10px;
 
 .mf-para.title {
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   /* border: 2px solid white; */
 }
 
@@ -135,17 +135,17 @@ margin-right: 10px;
   margin: 40px 0 0 0;
   width: 40vw;
   text-align: left;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
 }
 
-.mf-headers#name{
+.mf-headers#name {
   font-size: 100px;
 }
 
-
-.mf-headers#role{
+.mf-headers#role {
   font-size: 40px;
   font-family: sans-serif;
 }
@@ -154,7 +154,7 @@ margin-right: 10px;
   /* border: 1px solid white; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   height: 80vh;
 }
@@ -168,17 +168,16 @@ margin-right: 10px;
   border-radius: 8px;
 }
 
-.mf-ct.ic{
+.mf-ct.ic {
   /* border: 1px solid white; */
   margin: 40px 0px;
   display: flex;
   align-items: inherit;
   height: fit-content;
-  width: 50vw;
+  width: fit-content;
 }
 
-.footer-fin 
-{
+.footer-fin {
   display: flex;
   padding: 2%;
   justify-content: center;
@@ -186,16 +185,22 @@ margin-right: 10px;
   font-size: 12px;
 }
 
-.social-container {
-  /* border: 1px solid greenyellow; */
+.social-container-wrap {
+  position: fixed;
+  width: 100px;
   height: 100vh;
   display: flex;
-  pointer-events: none;
-  /* background: greenyellow; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-.insta-container {
-  background-color: aliceblue;
-  width: fit-content;
-  height: 80px;
+.s-logo {
+  height: 25px;
+  margin: 0px 0px 25px 0px;
+}
+
+.vl {
+  border: 1px solid grey;
+  height: 200px;
 }

@@ -1,14 +1,14 @@
-import logo from "../logo.svg";
+import logo from "../images/sun_logo.png";
 
-export default function Header(){
+export default function Header({ switchTheme }){
 return (
 <header className="App-header">
-    <div className="header-image">
-    <h3 className="App-logo header-wrap">{'><'}</h3>
+    <div className="header-image" onClick={switchTheme} style={{'cursor': 'pointer'}} >
+    <img className="App-logo header-wrap" src={logo} alt='theme' />
     </div>
     <div className="header-content">
     <ul className='header-links'> 
-    <li><div className='Resume-box'>Hire me</div></li>
+    <li><a href='#hire' className='Resume-box'>Hire Me</a></li>
     </ul>
     </div>
 </header>);

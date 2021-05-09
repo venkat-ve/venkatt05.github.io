@@ -1,13 +1,17 @@
+import Contact from './contact';
 import FirstFold from './firstfold';
 import Footer from './footer';
 import Header from './header';
+import Social from './social';
 
-export default function Body(){
+export default function Body({ switchTheme }){
  return (<div className="App">
-      <Header />
       <div className="main-wrap">
+      <Header switchTheme={switchTheme}/>
         <FirstFold />
+        <Social/>
+        <Contact/>
+        <Footer/>
       </div>
-      <Footer/>
     </div>);
 }

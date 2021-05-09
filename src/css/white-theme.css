@@ -1,0 +1,49 @@
+body {
+  background: rgb(240, 240, 240);
+}
+
+button, a {
+    border: 2px solid gray;
+    color: gray;
+    background-color: transparent;
+  }
+  
+  a:hover {
+    color: whitesmoke;
+    background-color: grey;
+    cursor: pointer;
+  }
+  
+  h3 {
+    color: grey;
+    font-size: 40px;
+  }
+
+  .header-content {
+      color: gray;
+  }
+
+  .Resume-box {
+    border: solid black 1px;
+  }
+
+  .mf-para.title {
+    color: black(0, 0, 0);
+  }
+
+  .mf-para.desc {
+    color: gray;
+  }
+
+  .mf-headers#name {
+    color: black;
+    font-size: 100px;
+  }
+
+  .mf-headers#role {
+    color: rgb(43, 3, 70);
+  }
+
+  .footer-fin {
+  color: gray;
+}

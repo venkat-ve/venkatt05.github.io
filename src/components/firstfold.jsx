@@ -1,6 +1,6 @@
 export default function FirstFold() {
   return (
-    <div className="mf-wrapper">
+    <div className="mf-wrapper" data-aos="zoom-in-up">
       <p className="mf-para title">Hi 👋🏼, This is</p>
       <h1 className="mf-headers" id="name">
         venkat.

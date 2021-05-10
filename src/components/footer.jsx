@@ -6,7 +6,7 @@ export default function Footer() {
         <p>
           © 2021{" "}
           <span>
-            <a href="https://www.instagram.com/vxkat_/" target="__blank">
+            <a href="https://www.instagram.com/vxkat_" target="__blank">
               venkat
             </a>
           </span>{" "}

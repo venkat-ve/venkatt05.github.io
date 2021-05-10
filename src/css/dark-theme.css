@@ -2,8 +2,15 @@ body {
     background: black;
 }
 
-a {
-  color: rgb(235, 34, 34);
+Footer a {
+  color: rgb(34, 195, 235);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: small;
+}
+
+Footer a:hover {
+  color: rgba(90, 207, 11, 0.979);
+  border: 0px;
 }
 
   .f-contact {
@@ -19,9 +26,10 @@ a {
   }
   
   .Resume-box:hover {
-    color: black;
-    background-color: whitesmoke;
+    color: #000;
+    background-color: #F7DC6F;
     cursor: pointer;
+    border: 0px;
   }
 
   .mf-ct.ic :hover{

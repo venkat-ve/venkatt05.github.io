@@ -1,6 +1,7 @@
 export default function FirstFold() {
   return (
-    <div className="mf-wrapper" data-aos="zoom-in-up">
+    <div className="mf-wrapper" data-aos="fade-up" data-aos-duration="3000">
+      <div className="left-wrapper">
       <p className="mf-para title">Hi 👋🏼, This is</p>
       <h1 className="mf-headers" id="name">
         venkat.
@@ -14,6 +15,8 @@ export default function FirstFold() {
           exceptional web apps.
         </p>
       </div>
+      </div>
+      <div className='cl-container' data-aos="flip-left"></div>
     </div>
   );
 }

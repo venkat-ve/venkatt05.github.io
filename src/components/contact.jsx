@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="mf-ct" data-aos="fade-up">
+    <div className="mf-ct" data-aos="fade-up" data-aos-duration="2000">
       <h1>PS : ✉️</h1>
       <div className="ct-content">
         My inbox is always open. Whether you have a question or just want to say

@@ -3,6 +3,7 @@ import Contact from "./contact";
 import FirstFold from "./firstfold";
 import Footer from "./footer";
 import Header from "./header";
+import Navigation from "./navigation";
 import Social from "./social";
 
 export default function Body({ switchTheme }) {
@@ -19,6 +20,7 @@ export default function Body({ switchTheme }) {
         <Contact />
         <Footer />
       </div>
+      <Navigation />
       <Social />
     </div>
   );

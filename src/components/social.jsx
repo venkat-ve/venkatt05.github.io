@@ -22,11 +22,11 @@ const SOCIALS = {
 
 export default function Social() {
   return (
-    <div className="social-container-wrap" data-aos="fade-up">
+    <div className="social-container-wrap" data-aos="fade-up" data-aos-duration="3000">
+      <div class="vl" />
       {Object.values(SOCIALS).map(value => <a href={value.link} target="__blank">
         <img src={value.logo} alt={value.alt} className={`s-logo ${value.alt === "Github" ? "git" : ""}`} />
       </a>)}
-      <div class="vl" />
     </div>
   );
 }

@@ -41,7 +41,7 @@ a {
 }
 
 .App-header {
-  padding-inline: 30px;
+  padding-inline: 40px;
   display: flex;
   max-width: 100vw;
   height: 100px;
@@ -51,6 +51,7 @@ a {
 
 .App-logo.header-wrap {
   height: 80px;
+  max-width: fit-content;
   pointer-events: none;
 }
 
@@ -58,7 +59,6 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25px;
 }
 
 .header-image:hover {
@@ -120,9 +120,11 @@ a {
   /* border: 1px solid whitesmoke; */
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 0px 0 100px;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
+  position: relative;
 }
 
 .mf-para.title {
@@ -187,20 +189,52 @@ a {
 
 .social-container-wrap {
   position: fixed;
+  right: 0;
   width: 100px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .s-logo {
   height: 25px;
-  margin: 0px 0px 25px 0px;
+  margin: 25px 0px 0px 0px;
+  stroke: whitesmoke;
 }
 
 .vl {
   border: 1px solid grey;
   height: 200px;
+}
+
+.left-wrapper {
+  width: fit-content;
+  /* border: 1px solid white; */
+}
+
+.cl-container {
+/* border: 3px solid white; */
+width: 35%;
+height: 80%;
+/* width: 100%; */
+margin-left: auto;
+position: absolute;
+right: 0;
+top: 0;
+/* background-color: #F7DC6F; */
+background: url('../images/geometric.png');
+background-size: contain;
+opacity: 0.6;
+}
+
+.navigation-container {
+  /* border: 1px solid whitesmoke; */
+  position: fixed;
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F7DC6F;
 }

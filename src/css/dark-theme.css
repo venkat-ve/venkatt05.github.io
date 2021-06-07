@@ -1,5 +1,5 @@
 body {
-    background: black;
+    background: #0a001d;
 }
 
 Footer a {
@@ -10,18 +10,26 @@ Footer a {
 
 Footer a:hover {
   color: rgba(90, 207, 11, 0.979);
-  border: 0px;
+  /* border: 0px; */
 }
 
   .f-contact {
-    border: 2px solid whitesmoke;
-    color: whitesmoke;
+    border: 2px solid #d696f0;
+    color: #d696f0;
     background-color: transparent;
   }
 
+  .f-contact:hover{
+    color: #000;
+    background-color: #F7DC6F;
+    cursor: ne-resize;
+    border: 0px;
+  }
+  
+
   .Resume-box {
-    border: 2px solid whitesmoke;
-    color: whitesmoke;
+    border: 1px solid #d696f0;
+    color: #d696f0;
     background-color: transparent;
   }
   
@@ -32,55 +40,58 @@ Footer a:hover {
     border: 0px;
   }
 
-  .mf-ct.ic :hover{
-    color: black;
-    background-color: whitesmoke;
-    cursor: pointer;
-  }
-  
   h3 {
     color: white;
     font-size: 40px;
   }
 
+  
   .header-content {
       color: aliceblue;
   }
 
   .mf-para.title {
-    color: bisque;
+    color: #d696f0;
   }
 
   .mf-para.desc {
-    color: #c6c7c5;
+    color: #a69db9;
   }
 
   .mf-headers#name {
-    color: whitesmoke;
-    font-size: 100px;
-    background-color: #f3ec78;
-      background-image: linear-gradient(45deg, #f3ec78, #9b2849);
+    color: #dad3e7;
+    /* background-color: #f3ec78; */
+      /* background-image: linear-gradient(45deg, #f3ec78, #df1951);
       background-clip: text;
       -webkit-background-clip: text;
       -moz-background-clip: text;
       -webkit-text-fill-color: transparent; 
-      -moz-text-fill-color: transparent;
+      -moz-text-fill-color: transparent; */
   }
 
   .mf-headers#role {
-    color: gainsboro;
+    color: #a69db9;
   }
 
   .footer-fin {
-  color: snow;
+  color: #d696f0;
+}
+
+.mf-wrapper a{
+  color: #d696f0;
+}
+
+.mf-wrapper span a:hover{
+  color: #F7DC6F;
 }
 
 .mf-ct h1 {
     color: whitesmoke;
 }
 
+
 .ct-content {
-    color: whitesmoke;
+    color: #a69db9;
   }
 
   img.s-logo {

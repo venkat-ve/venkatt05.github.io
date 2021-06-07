@@ -3,7 +3,6 @@ import Contact from "./contact";
 import FirstFold from "./firstfold";
 import Footer from "./footer";
 import Header from "./header";
-import Navigation from "./navigation";
 import Social from "./social";
 
 export default function Body({ switchTheme }) {
@@ -14,13 +13,12 @@ export default function Body({ switchTheme }) {
 
   return (
     <div className="App">
+      <Header switchTheme={switchTheme} />
       <div className="main-wrap">
-        <Header switchTheme={switchTheme} />
         <FirstFold />
         <Contact />
         <Footer />
       </div>
-      <Navigation />
       <Social />
     </div>
   );

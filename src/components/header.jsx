@@ -14,7 +14,7 @@ export default function Header({ switchTheme }) {
         <ul className="header-links">
           <li>
             <a href="#hire" className="Resume-box">
-              Hire Me
+              Resume
             </a>
           </li>
         </ul>

@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <hr style={{ height: "2px", "background-color": "gray" }} />
+      {/* <hr style={{ height: "2px", backgroundColor: "#a69db9" }} /> */}
       <footer className="footer-fin">
         <p>
           © 2021{" "}

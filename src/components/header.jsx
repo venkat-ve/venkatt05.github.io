@@ -1,4 +1,4 @@
-import logo from "../images/sun_logo.png";
+import logo from "../images/sun_logo.svg";
 
 export default function Header({ switchTheme }) {
   return (

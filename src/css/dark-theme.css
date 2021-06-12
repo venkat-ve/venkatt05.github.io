@@ -22,7 +22,7 @@ Footer a:hover {
   .f-contact:hover{
     color: #000;
     background-color: #F7DC6F;
-    cursor: ne-resize;
+    cursor: pointer;
     border: 0px;
   }
   
@@ -103,7 +103,7 @@ Footer a:hover {
     -webkit-filter: none;
     filter: none; 
     cursor: pointer;
-    transform: scale(1.2);
+    transform: translateY(-6px);
   }
 
   Footer:hover a {

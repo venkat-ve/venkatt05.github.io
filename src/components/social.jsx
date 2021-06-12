@@ -1,6 +1,6 @@
-import Insta from "../images/instagram.png";
-import Linkedin from "../images/linkedin.png";
-import Github from "../images/github.png"
+import Insta from "../images/instagram.svg";
+import Linkedin from "../images/linkedin.svg";
+import Github from "../images/github.svg"
 
 const SOCIALS = {
   github : {

@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="ct-content">
         My inbox is always open. Whether you have a question or just want to say
         hi, I'll try my best to get back to you!. Best to reach me is through my social handles.
-        If that dosen't work, you can send out a mail.
+        If that doesn't work, you can send out a mail.
       </div>
       <div className="mf-ct ic">
         <a href="mailto:vxkat.360@gmail.com" className="f-contact">

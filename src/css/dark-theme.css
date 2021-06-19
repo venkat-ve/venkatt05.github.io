@@ -2,6 +2,10 @@ body {
     background: #0a001d;
 }
 
+.mf-ct {
+  background: rgb(240, 238, 238);
+}
+
 Footer a {
   color: rgb(34, 195, 235);
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -13,10 +17,20 @@ Footer a:hover {
   /* border: 0px; */
 }
 
-  .f-contact {
-    border: 2px solid #d696f0;
-    color: #d696f0;
+  .mf-ct .f-contact {
+    border: 2px solid #c94469;
+    color: #c94469;
     background-color: transparent;
+  }
+
+  .top-hr {
+    height: 4px;
+    background-color: #c94469;
+    background-image: linear-gradient(45deg, #6d3ec5, #df1951);
+  }
+
+  .first-ct .f-contact {
+    border: 2px solid #d696f0;
   }
 
   .f-contact:hover{
@@ -85,13 +99,19 @@ Footer a:hover {
   color: #F7DC6F;
 }
 
-.mf-ct h1 {
-    color: whitesmoke;
+.mf-ct h2 {
+    background-color: #6d3ec5; 
+      background-image: linear-gradient(45deg, #6d3ec5, #df1951);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+      -moz-text-fill-color: transparent; 
 }
 
 
 .ct-content {
-    color: #a69db9;
+    color: #7a708f;
   }
 
   img.s-logo {

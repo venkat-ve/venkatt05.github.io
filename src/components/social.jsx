@@ -11,7 +11,7 @@ const SOCIALS = {
   insta : {
     logo : Insta,
     alt : 'Instagram',
-    link : 'https://www.instagram.com/vxkat_'
+    link : 'https://www.instagram.com/venkaat__'
   },
   linkedin : {
     logo : Linkedin,

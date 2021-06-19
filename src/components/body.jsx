@@ -13,11 +13,13 @@ export default function Body({ switchTheme }) {
 
   return (
     <div className="App">
+      <div className='top-hr'></div>
       <Header switchTheme={switchTheme} />
       <div className="main-wrap">
         <FirstFold />
         <Contact />
         <Footer />
+        <div className='top-hr' style={{"paddingInline":"100px"}}></div>
       </div>
       <Social />
     </div>

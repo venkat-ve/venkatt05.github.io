@@ -9,14 +9,10 @@ function App() {
 
   const toggleTheme = () => updateTheme((currentTheme) => !currentTheme);
 
-  // useEffect(()=>{
-  //   lazyThemeLoader = lazy(() => import("./css/dark-theme.css") )
-  // }, [theme]);
-
   const Lazy = lazy(
     () =>
       new Promise((resolve) => {
-        setTimeout(() => resolve(import("./components/body")), 3000);
+        setTimeout(() => resolve(import("./components/body")), 2000);
       })
   );
   return (

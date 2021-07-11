@@ -1,9 +1,5 @@
 body {
-    background: #0a001d;
-}
-
-.mf-ct {
-  background: rgb(240, 238, 238);
+    background: rgb(240, 238, 238);
 }
 
 Footer a {
@@ -75,6 +71,10 @@ Footer a:hover {
 
   .footer-fin {
   color: #d696f0;
+}
+
+.mf-wrapper { 
+  background-color: #0a001d;
 }
 
 .mf-wrapper a{
@@ -150,4 +150,8 @@ Footer a:hover {
     color: #F7DC6F;
     line-height: 2.13;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .onscroll-shadow a {
+    color: whitesmoke;
   }

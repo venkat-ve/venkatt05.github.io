@@ -6,7 +6,7 @@ const SOCIALS = {
   github : {
     logo : Github,
     alt : 'Github',
-    link : 'https://github.com/venkatt05'
+    link : 'https://github.com/venkat-ve'
   },
   insta : {
     logo : Insta,

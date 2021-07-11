@@ -1,3 +1,4 @@
+
 export default function FirstFold() {
   return (
     <div className="mf-wrapper" data-aos="fade-up" data-aos-duration="1000">

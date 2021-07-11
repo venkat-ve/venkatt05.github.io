@@ -6,16 +6,19 @@ import Header from "./header";
 import Social from "./social";
 
 export default function Body({ switchTheme }) {
-
-  useEffect(()=>{
+  useEffect(() => {
     window.AOS.init();
-    window.onscroll = ()=>{
-      if(window.scrollY >= 500) {
-        document.getElementById('header-shadow').classList.add("onscroll-shadow");
-    } else {
-    document.getElementById('header-shadow').classList.remove("onscroll-shadow");
-}
-  };
+    window.onscroll = () => {
+      if (window.scrollY >= 100) {
+        document
+          .getElementById("header-shadow")
+          .classList.add("onscroll-shadow");
+      } else {
+        document
+          .getElementById("header-shadow")
+          .classList.remove("onscroll-shadow");
+      }
+    };
   }, []);
 
   return (
@@ -25,7 +28,7 @@ export default function Body({ switchTheme }) {
         <FirstFold />
         <Contact />
         <Footer />
-        <div className='top-hr' style={{"paddingInline":"100px"}}></div>
+        <div className="top-hr" style={{ paddingInline: "100px" }}></div>
       </div>
       <Social />
     </div>

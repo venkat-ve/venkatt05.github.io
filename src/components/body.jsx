@@ -5,7 +5,8 @@ import Footer from "./footer";
 import Header from "./header";
 import Social from "./social";
 
-export default function Body({ switchTheme }) {
+
+export default function Body() {
   useEffect(() => {
     window.AOS.init();
     window.onscroll = () => {
@@ -23,7 +24,7 @@ export default function Body({ switchTheme }) {
 
   return (
     <div className="App">
-      <Header switchTheme={switchTheme} />
+      <Header/>
       <div className="main-wrap">
         <FirstFold />
         <Contact />

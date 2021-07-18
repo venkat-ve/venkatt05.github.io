@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import github from '../../assets/images/github.svg';
 
 export default function Header() {
 
@@ -20,6 +21,7 @@ export default function Header() {
         <li><a className='links' href="/">Home</a></li>
         <li><a className='links' href="#contact">Contact</a></li>
         <li><a className='links' href="/">Resume</a></li>
+        <li><a className='links' href="https://github.com/venkatt05" target='_blank' rel='noreferrer'>GitHub</a></li>
       </ul>
     </header>
   );

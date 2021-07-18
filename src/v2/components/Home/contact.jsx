@@ -18,7 +18,7 @@ export default function Contact() {
         {/* <img className="common-vector down-arrow" src={darrow} alt="arrow" /> */}
       <div className="social-cards">
         {SOCIAL.data.map((value) => (
-          <Social data={value} />
+          <Social data={value} key={value.name}/>
         ))}
       </div>
     </section>

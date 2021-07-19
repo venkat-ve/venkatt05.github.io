@@ -21,7 +21,7 @@ export default function Home() {
       <Header />
       <div className="home-name">
         <h1 id="name">venkat.</h1>
-        <img src={warrow} alt="arrow" style={{'height':'80px', 'opacity':'0.8','fill':'white'}} className='common-vector'/>
+        <img src={warrow} alt="arrow" className='common-vector home-arrow'/>
       </div>
       <main className="main-container" id='main'>
         <h3 id="punch-line">I build things for the web</h3>

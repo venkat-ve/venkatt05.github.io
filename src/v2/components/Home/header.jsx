@@ -19,7 +19,6 @@ export default function Header() {
     <header id='home-header'>
       <ul className='nav-list'>
         <li><a className='links' href="/">Home</a></li>
-        <li><a className='links' href="#contact">Contact</a></li>
         <li><a className='links' href="/">Resume</a></li>
         <li><a className='links' href="https://github.com/venkatt05" target='_blank' rel='noreferrer'>GitHub</a></li>
       </ul>

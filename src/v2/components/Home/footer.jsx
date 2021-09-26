@@ -1,8 +1,7 @@
 export default function Footer() {
     return (<footer>
         <div className='footer-content'>
-
-        </div>
+          <hr/>
         <p>
           © 2021{" "}
           <span>
@@ -12,5 +11,6 @@ export default function Footer() {
           </span>{" "}
           · Designed & Developed with ❤️.
         </p>
+        </div>
     </footer>);
 }

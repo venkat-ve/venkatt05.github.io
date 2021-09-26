@@ -17,15 +17,21 @@ export default function Home() {
 
   return (
     <>
-      <Header />
       <div className="home-name">
+        <div>
         <h1 id="name">venkat.</h1>
+        </div>
         <img src={warrow} alt="arrow" className='common-vector home-arrow'/>
       </div>
       <main className="main-container" id='main'>
-        <h3 id="punch-line">I build things for the web</h3>
+      <div id="punch-line">
+        <div>
+          <h3>I build things for the web.</h3>
+        </div>
+      </div>
+        <article className="tech">
         <Intro/>
-        <article className="tech"></article>
+        </article>
         <Contact/>
         <Footer />
       </main>

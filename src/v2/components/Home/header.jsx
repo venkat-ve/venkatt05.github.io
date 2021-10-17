@@ -3,17 +3,17 @@ import github from '../../assets/images/github-light.png';
 
 export default function Header() {
 
-  useEffect(() => {
-    window.onscroll = () => {
-      if (window.scrollY >= 700) {
-        document.getElementById("home-header")
-          .classList.add("shadow");
-      } else {
-        document.getElementById("home-header")
-          .classList.remove("shadow");
-      }
-    };
-  }, [])
+  // useEffect(() => {
+  //   window.onscroll = () => {
+  //     if (window.scrollY >= 50) {
+  //       document.getElementById("home-header")
+  //         .classList.add("shadow");
+  //     } else {
+  //       document.getElementById("home-header")
+  //         .classList.remove("shadow");
+  //     }
+  //   };
+  // }, [])
 
   return (
     <header id='home-header'>

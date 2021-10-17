@@ -1,33 +1,31 @@
 import "../../styles/global.css";
 import "../../styles/home.css";
-import Header from "./header";
 import Footer from "./footer";
 import Contact from "./contact";
-import warrow from "../../assets/images/down-arrow-white.svg";
-import { useEffect } from "react";
 import Intro from "./Intro";
 
 export default function Home() {
 
-  useEffect(() => {
-    document.querySelector('.home-name img').addEventListener('click', () => {
-      window.scroll(0,730);
-    })
-  })
+  const openResume = () => {
+    window.open('https://storage.googleapis.com/venkat-documents/Venkat-Resume.pdf', '_blank');
+  }
 
   return (
     <>
-      <div className="home-name">
-        <div>
-        <h1 id="name">venkat.</h1>
+      <div className="home col-12">
+        <div className="left-wrapper">
+        <h5>Hi There, this is</h5>
+        <h2 id="name">venkat.</h2>
+        <h4>Software Engineer</h4>
         </div>
-        <img src={warrow} alt="arrow" className='common-vector home-arrow'/>
+        <div className="right-wrapper">
+          <button className="cta" onClick={openResume}>Resume</button>
+          <button className="cta" onClick={() => window.scrollTo({top:1000})}>Contact</button>
+        </div>
       </div>
-      <main className="main-container" id='main'>
+      <main className="main-container col-12" id='main'>
       <div id="punch-line">
-        <div>
           <h3>I build things for the web.</h3>
-        </div>
       </div>
         <article className="tech">
         <Intro/>
@@ -35,6 +33,7 @@ export default function Home() {
         <Contact/>
         <Footer />
       </main>
+      
     </>
   );
 }

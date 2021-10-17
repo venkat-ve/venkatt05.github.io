@@ -1,16 +1,12 @@
-import { SOCIAL } from "../../../utils/commonUtils";
-import Social from "./social";
-
 export default function Contact() {
+
+  const draftMail = () => {
+    window.open('mailto:venkatesh.velan5@gmail.com', '__blank');
+  }
+
   return (
-    <section className="home-contact" id='contact'>
+    <section className="contact" id='contact'>
       <h3>Get In Touch.</h3>
-      <br/>
-      <div className="social-cards">
-        {SOCIAL.data.map((value) => (
-          <Social data={value} key={value.name}/>
-        ))}
-      </div>
       <p>
         My inbox is always open. Whether you have a question or just want to say
         hi, I'll try
@@ -20,7 +16,7 @@ export default function Contact() {
         <br />
         doesn't work, you can send out a mail.
       </p>
-        {/* <img className="common-vector down-arrow" src={darrow} alt="arrow" /> */}
+      <button className="cta" onClick={draftMail}>Say Hi !</button>
     </section>
   );
 }
